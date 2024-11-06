@@ -10,7 +10,7 @@ int main() {
   for(int i = 0; i < 234; i++) {
     fin >> zahl1 >> zahl2;
     summe = zahl1 + zahl2;
-    fout << summe << " #(" << zahl1 << " + " << zahl2 << ")" << std::endl;
+    fout << summe << " //(" << zahl1 << " + " << zahl2 << ")" << std::endl;
   }
   fin.close();
   fout.close();
